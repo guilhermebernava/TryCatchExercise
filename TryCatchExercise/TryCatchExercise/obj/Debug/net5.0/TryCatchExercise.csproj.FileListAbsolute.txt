@@ -1,0 +1,16 @@
+C:\Users\Guilherme\Documents\Visual Studio 2022\Projects\TryCatchExercise\TryCatchExercise\TryCatchExercise\bin\Debug\net5.0\TryCatchExercise.exe
+C:\Users\Guilherme\Documents\Visual Studio 2022\Projects\TryCatchExercise\TryCatchExercise\TryCatchExercise\bin\Debug\net5.0\TryCatchExercise.deps.json
+C:\Users\Guilherme\Documents\Visual Studio 2022\Projects\TryCatchExercise\TryCatchExercise\TryCatchExercise\bin\Debug\net5.0\TryCatchExercise.runtimeconfig.json
+C:\Users\Guilherme\Documents\Visual Studio 2022\Projects\TryCatchExercise\TryCatchExercise\TryCatchExercise\bin\Debug\net5.0\TryCatchExercise.runtimeconfig.dev.json
+C:\Users\Guilherme\Documents\Visual Studio 2022\Projects\TryCatchExercise\TryCatchExercise\TryCatchExercise\bin\Debug\net5.0\TryCatchExercise.dll
+C:\Users\Guilherme\Documents\Visual Studio 2022\Projects\TryCatchExercise\TryCatchExercise\TryCatchExercise\bin\Debug\net5.0\ref\TryCatchExercise.dll
+C:\Users\Guilherme\Documents\Visual Studio 2022\Projects\TryCatchExercise\TryCatchExercise\TryCatchExercise\bin\Debug\net5.0\TryCatchExercise.pdb
+C:\Users\Guilherme\Documents\Visual Studio 2022\Projects\TryCatchExercise\TryCatchExercise\TryCatchExercise\obj\Debug\net5.0\TryCatchExercise.csproj.AssemblyReference.cache
+C:\Users\Guilherme\Documents\Visual Studio 2022\Projects\TryCatchExercise\TryCatchExercise\TryCatchExercise\obj\Debug\net5.0\TryCatchExercise.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Guilherme\Documents\Visual Studio 2022\Projects\TryCatchExercise\TryCatchExercise\TryCatchExercise\obj\Debug\net5.0\TryCatchExercise.AssemblyInfoInputs.cache
+C:\Users\Guilherme\Documents\Visual Studio 2022\Projects\TryCatchExercise\TryCatchExercise\TryCatchExercise\obj\Debug\net5.0\TryCatchExercise.AssemblyInfo.cs
+C:\Users\Guilherme\Documents\Visual Studio 2022\Projects\TryCatchExercise\TryCatchExercise\TryCatchExercise\obj\Debug\net5.0\TryCatchExercise.csproj.CoreCompileInputs.cache
+C:\Users\Guilherme\Documents\Visual Studio 2022\Projects\TryCatchExercise\TryCatchExercise\TryCatchExercise\obj\Debug\net5.0\TryCatchExercise.dll
+C:\Users\Guilherme\Documents\Visual Studio 2022\Projects\TryCatchExercise\TryCatchExercise\TryCatchExercise\obj\Debug\net5.0\ref\TryCatchExercise.dll
+C:\Users\Guilherme\Documents\Visual Studio 2022\Projects\TryCatchExercise\TryCatchExercise\TryCatchExercise\obj\Debug\net5.0\TryCatchExercise.pdb
+C:\Users\Guilherme\Documents\Visual Studio 2022\Projects\TryCatchExercise\TryCatchExercise\TryCatchExercise\obj\Debug\net5.0\TryCatchExercise.genruntimeconfig.cache
