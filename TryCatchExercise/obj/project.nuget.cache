@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "BQkDWvEMNd5QMJZCi8UFzBgwBYThCfd+lCISeAqo6gpRW1m6boGQdTdM+SwUG2A99G2bODgX0UesEe9AQqbAHQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\guilh\\Documents\\Visual Studio 2022\\Projects\\TryCatchExercise\\TryCatchExercise\\TryCatchExercise.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\guilh\\.nuget\\packages\\baseline\\3.2.1\\baseline.3.2.1.nupkg.sha512"
+  ],
+  "logs": []
+}

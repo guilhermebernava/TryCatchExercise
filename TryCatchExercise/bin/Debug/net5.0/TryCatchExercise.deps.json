@@ -1,0 +1,41 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "TryCatchExercise/1.0.0": {
+        "dependencies": {
+          "Baseline": "3.2.1"
+        },
+        "runtime": {
+          "TryCatchExercise.dll": {}
+        }
+      },
+      "Baseline/3.2.1": {
+        "runtime": {
+          "lib/net5.0/Baseline.dll": {
+            "assemblyVersion": "3.2.1.0",
+            "fileVersion": "3.2.1.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "TryCatchExercise/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Baseline/3.2.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Z16gV7oXBZ8KMCTJAuar5xa9XnOKv8iU6aiQRrSbquIp3OyqsD7jCk+EQODVeLqPZt1JMTO2BhJWjjKqM9xQmg==",
+      "path": "baseline/3.2.1",
+      "hashPath": "baseline.3.2.1.nupkg.sha512"
+    }
+  }
+}
