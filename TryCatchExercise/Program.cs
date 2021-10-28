@@ -18,7 +18,6 @@ namespace TryCatchExercise
                     acc.Number = Int32.Parse(Console.ReadLine());
                     Console.Write("Holder: ");
                     acc.Holder = Console.ReadLine();
-                    acc.TesteHolderHasInt();
                     Console.Write("Initial Balance: ");
                     acc.Balance = double.Parse(Console.ReadLine());
                     Console.Write("Withdraw limit: ");
@@ -50,7 +49,7 @@ namespace TryCatchExercise
                 }
                 catch (DomainExecption e)
                 {
-                    Console.WriteLine("Error: " + e.Message);
+                    Console.WriteLine(e.Message);
 
                 }
             }

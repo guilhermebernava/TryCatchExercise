@@ -11,7 +11,7 @@ namespace TryCatchExercise.Entities
         public double _balance;
         public string _holder;
         public double _withDrawLimit;
-        
+
         public int Number { get; set; }
 
         public double WithDrawLimit
@@ -19,11 +19,12 @@ namespace TryCatchExercise.Entities
             get { return _withDrawLimit; }
             set
             {
+                _withDrawLimit = value;
                 if (_withDrawLimit < 0)
                 {
                     throw new DomainExecption("Withdraw limit is less than 0");
                 }
-                else if (_withDrawLimit >= _balance)
+                if (_withDrawLimit > _balance)
                 {
                     throw new DomainExecption("Withdraw limit is more than balance");
                 }
@@ -34,8 +35,21 @@ namespace TryCatchExercise.Entities
         public string Holder
         {
             get { return _holder; }
-            
-            set{_holder = value;}
+
+            set
+            {
+
+                _holder = value;
+                bool containsInt = _holder.Any(char.IsDigit);
+                if (Regex.Match(_holder, @"\b[0-9]\w").Success)
+                {
+                    throw new DomainExecption("Has a number in Holder");
+                }
+                if (containsInt)
+                {
+                    throw new DomainExecption("Has a number in Holder");
+                }
+            }
         }
 
         public double Balance
@@ -43,16 +57,16 @@ namespace TryCatchExercise.Entities
             get { return _balance; }
             set
             {
+                _balance = value;
                 if (value <= 0 && value != null)
                 {
                     throw new DomainExecption("Error: Balance has to be more than 0 Dollars");
                 }
-                _balance = value;
             }
-
         }
 
-        public Account() {
+        public Account()
+        {
         }
 
         public Account(int number, string holder, double balance, double withDrawLimit)
@@ -63,7 +77,7 @@ namespace TryCatchExercise.Entities
             _withDrawLimit = withDrawLimit;
         }
 
-        public void deposit(double amount)
+        public void Deposit(double amount)
         {
             Balance += amount;
         }
@@ -75,24 +89,11 @@ namespace TryCatchExercise.Entities
             {
                 throw new DomainExecption("Amount bigger than Withdraw limit");
             }
-            if (amount < 0)
+            if (amount <= 0)
             {
                 throw new DomainExecption("Amount is negative");
             }
             Balance -= amount;
-        }
-
-        public void TesteHolderHasInt()
-        {
-            bool containsInt = _holder.Any(char.IsDigit);
-            if (Regex.Match(_holder, @"\b[0-9]\w").Success)
-            {
-                throw new DomainExecption("Has a number in Holder");
-            }
-            if (containsInt)
-            {
-                throw new DomainExecption("Has a number in Holder");
-            }
         }
 
         public override string ToString()
